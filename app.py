@@ -30,7 +30,7 @@ def transcribe_audio(audio_file):
         # Decode the output
         transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
-        return f"Transcription:\n{transcription}"
+        return transcription
     except Exception as e:
         return f"Error during transcription: {str(e)}"
 
