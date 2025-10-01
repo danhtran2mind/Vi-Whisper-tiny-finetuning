@@ -1,4 +1,4 @@
-# Vietnamese Whisper tiny finetuning
+# Vietnamese Whisper tiny finetuning 🎙️
 
 ## Introduction
 Fine-tuned Whisper Tiny model for accurate Vietnamese ASR, with real-time transcription via Gradio or Python API. 🎙️
@@ -93,5 +93,6 @@ print(transcription)
 
 ## Contact
 For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning/discussions). 📬
+
 
 
