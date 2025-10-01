@@ -1,4 +1,4 @@
-# Vietnamese Whisper tiny finetuning 🎙️
+# Vietnamese Whisper Tiny finetuning 🎙️
 
 ## Introduction
 Fine-tuned Whisper Tiny model for accurate Vietnamese ASR, with real-time transcription via Gradio or Python API. 🎙️
@@ -14,7 +14,7 @@ This project is built on the following base model: [![HuggingFace Model](https:/
 
 ## Demonstration
 Experience Vietnamese Whisper Tiny finetuning for ASR:  
-- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FVi--Whisper--tiny--finetuning-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning)  
+- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FVi--Whisper--Tiny--finetuning-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-Tiny-finetuning)  
 
 - **Demo GUI**:  
   <img src="./assets/gradio_app_demo.jpg" alt="Gradio Demo" height="600">
@@ -29,8 +29,8 @@ python app.py
 ### Step 1: Clone the Repository
 Clone the project repository and navigate to the project directory:  
 ```bash
-git clone https://github.com/danhtran2mind/Vi-Whisper-tiny-finetuning.git
-cd Vi-Whisper-tiny-finetuning
+git clone https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning.git
+cd Vi-Whisper-Tiny-finetuning
 ```
 
 ### Step 2: Install Dependencies
@@ -92,7 +92,8 @@ print(transcription)
 - **Key Libraries**: See [requirements.txt](requirements.txt) for compatible versions
 
 ## Contact
-For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning/discussions). 📬
+For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-Tiny-finetuning/discussions). 📬
+
 
 
 
