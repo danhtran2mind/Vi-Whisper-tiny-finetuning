@@ -6,7 +6,7 @@ from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
 import os
 
 # Load model and processor (assuming Whisper model for transcription)
-model_name = "danhtran2mind/Vi-Whisper-tiny-finetuning"  # Replace with your model if different
+model_name = "danhtran2mind/Vi-Whisper-Tiny-finetuning"  # Replace with your model if different
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForSpeechSeq2Seq.from_pretrained(model_name)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -51,7 +51,7 @@ iface = gr.Interface(
     outputs=gr.Textbox(label="Transcription Result", lines=5),
     title="Vietnamese Whisper-tiny finetuning",
     description="Upload an audio file (e.g., WAV, MP3) to transcribe its content using a speech-to-text model.",
-    examples=load_examples("assets/Vi-Whisper-tiny-finetuning")
+    examples=load_examples("assets/Vi-Whisper-Tiny-finetuning")
 )
 
 # Launch the app

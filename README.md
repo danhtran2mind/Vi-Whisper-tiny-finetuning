@@ -50,6 +50,18 @@ python app.py
 ### Using Python API
 Generate ASR Text output programmatically:  
 ```python
+import torch
+import librosa
+from transformers import WhisperProcessor, WhisperForConditionalGeneration
+
+# Load model and processor
+processor = WhisperProcessor.from_pretrained("danhtran2mind/Vi-Whisper-Tiny-finetuning")
+model = WhisperForConditionalGeneration.from_pretrained("danhtran2mind/Vi-Whisper-Tiny-finetuning")
+model.config.forced_decoder_ids = None
+# Move model to GPU if available
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)
+
 # Load audio file (replace 'audio.wav' with your audio file path)
 audio_path = "tests/test_data/example.mp3"
 audio, sr = librosa.load(audio_path, sr=16000)
