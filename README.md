@@ -80,6 +80,8 @@ print(transcription)
 
 - Input Audio:
 
+  https://github.com/user-attachments/assets/7f1d6e86-746d-496f-bcf9-8610cffcc89b
+
 - Output Transcript:
   Ông Thỏ cho biết, lòng làm từ ông rất ngon, ngon hơn nhiều so với lòng, lại rất hiếm. Vì vậy, 
   buổi khi có nguồn cung, ông thường tặng cho người thân, bạn bè thường thức. Nhiều người sành ăn 
@@ -91,4 +93,5 @@ print(transcription)
 
 ## Contact
 For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning/discussions). 📬
+
 
