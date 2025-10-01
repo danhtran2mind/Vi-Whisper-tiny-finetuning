@@ -1,14 +1,20 @@
 # Vietnamese Whisper tiny finetuning
 
 ## Introduction
+Fine-tuned Whisper Tiny model for accurate Vietnamese ASR, with real-time transcription via Gradio or Python API. 🎙️
 
 ## Key Features
+- 🎤 Fine-tuned Whisper Tiny for Vietnamese ASR
+- 🌐 Real-time transcription with Gradio interface
+- 🐍 Programmatic access via Python API
+- ⚡ Lightweight and efficient for local deployment
 
 ## Base Model
+This project is built on the following base model: [![HuggingFace Model](https://img.shields.io/badge/HuggingFace-openai%2Fwhisper--tiny-yellow?style=flat&logo=huggingface)](https://huggingface.co/openai/whisper-tiny)
 
 ## Demonstration
-Experience real-time Vietnamese TTS generation:  
-- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FViet--Glow--TTS--finetuning-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Viet-Glow-TTS-finetuning)  
+Experience Vietnamese Whisper Tiny finetuning for ASR:  
+- **HuggingFace Space**: [![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FVi--Whisper--tiny--finetuning-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning)  
 
 - **Demo GUI**:  
   <img src="./assets/gradio_app_demo.jpg" alt="Gradio Demo" height="600">
@@ -71,4 +77,18 @@ print(transcription)
 
 
 ## Inference Examples
+
+- Input Audio:
+
+- Output Transcript:
+  Ông Thỏ cho biết, lòng làm từ ông rất ngon, ngon hơn nhiều so với lòng, lại rất hiếm. Vì vậy, 
+  buổi khi có nguồn cung, ông thường tặng cho người thân, bạn bè thường thức. Nhiều người sành ăn 
+  thường đạt.
+
+  ## Environment
+- **Python**: 3.8 or higher
+- **Key Libraries**: See [requirements.txt](requirements.txt) for compatible versions
+
+## Contact
+For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-tiny-finetuning/discussions). 📬
 
