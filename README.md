@@ -1,7 +1,7 @@
 # Vietnamese Whisper Tiny finetuning 🎙️
 
 ## Introduction
-Fine-tuned Whisper Tiny model for accurate Vietnamese ASR, with real-time transcription via Gradio or Python API. 🎙️
+In the dynamic field of automatic speech recognition, Vietnamese audio demands precision and speed. Vi-Whisper-Tiny-finetuning refines OpenAI's Whisper Tiny model for exceptional Vietnamese transcription. Offering real-time accuracy via Gradio interface and Python API, this lightweight solution enables efficient local deployments, transforming voice-to-text for creators and enterprises alike. 🎙️
 
 ## Key Features
 - 🎤 Fine-tuned Whisper Tiny for Vietnamese ASR
@@ -105,6 +105,7 @@ print(transcription)
 
 ## Contact
 For questions or issues, please use the [GitHub Issues tab](https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning/issues) or the [Hugging Face Community tab](https://huggingface.co/spaces/danhtran2mind/Vi-Whisper-Tiny-finetuning/discussions). 📬
+
 
 
 
